@@ -1,0 +1,196 @@
+Using Power View: av_hold.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: top_dht11_ascon_uart
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=3121.5)
+*** Calculating scaling factor for lib_bc libraries using the default operating condition of each library.
+Total number of fetched objects 7453
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=3155.18 CPU=0:00:00.3 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=3155.18 CPU=0:00:00.4 REAL=0:00:00.0)
+Load RC corner of view av_hold
+
+Begin Power Analysis
+
+             0V	    VSS
+          1.32V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Ended Processing Timing Library for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.15MB/4705.11MB/2814.68MB)
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.15MB/4705.11MB/2814.68MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+CK: assigning clock clk to net clk
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.15MB/4705.11MB/2814.68MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.15MB/4705.11MB/2814.68MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2026-Apr-22 15:03:22 (2026-Apr-22 09:33:22 GMT)
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 10%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 20%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 30%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 40%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 50%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 60%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 70%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 80%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 90%
+
+Finished Levelizing
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT)
+
+Starting Activity Propagation
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT)
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 10%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 20%
+
+Finished Activity Propagation
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.15MB/4705.11MB/2814.68MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT)
+ ... Calculating switching power
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 10%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 20%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 30%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 40%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 50%
+ ... Calculating internal and leakage power
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 60%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 70%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 80%
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT): 90%
+
+Finished Calculating power
+2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT)
+      # of MSMV cell(s) missing power_level: 0
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.92MB/4713.12MB/2814.68MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.92MB/4713.12MB/2814.68MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2746.92MB/4713.12MB/2814.68MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=2746.92MB/4713.12MB/2814.68MB)
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 21.19-s058_1 (64bit) 04/04/2024 09:59 (Linux 3.10.0-693.el7.x86_64)
+*	
+*
+* 	Date & Time:	2026-Apr-22 15:03:23 (2026-Apr-22 09:33:23 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: top_dht11_ascon_uart
+*
+*	Parasitic Files used:
+*
+*       Power View : av_hold
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power -view av_hold
+*
+-----------------------------------------------------------------------------------------
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        2.28811000 	   70.9411%
+Total Switching Power:       0.93565629 	   29.0093%
+Total Leakage Power:         0.00159813 	    0.0495%
+Total Power:                 3.22536441
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                         1.743      0.2216   0.0007137       1.965       60.92
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                     0.5456      0.7141   0.0008845       1.261       39.08
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                              2.288      0.9357    0.001598       3.225         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                      1.32      2.288      0.9357    0.001598       3.225         100
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+*              Highest Average Power:                ENC/g34227 (CKINVM6TP):         0.004008
+*              Highest Leakage Power:          add_131_40_g1532 (ADHM8TP):        1.441e-06
+*                Total Cap:      4.42303e-11 F
+*                Total instances in design:  7202
+*                Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+*                Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+** INFO:  (VOLTUS_POWR-3465): There are 0 decaps and 0 fillers in the design
+
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=2748.71MB/4713.12MB/2814.68MB)
+
