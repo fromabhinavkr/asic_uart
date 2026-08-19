@@ -1,0 +1,10 @@
+    Hinst Name       Module Name          Inst Count           Total Area
+----------------------------------------------------------------------
+top_dht11_ascon_uart                            7262            38615.040
+ DEC                 ascon128a_aead_dec         2907            13115.520
+  DEC/P              ascon_perm_109             1375             5308.800
+ DHT                 dht11_timing_correct        286             1992.000
+ ENC                 ascon128a_aead             2986            15774.720
+  ENC/P              ascon_perm                 1371             5314.080
+ UART                uart_tx_icg                 116              660.000
+  UART/u_icg         LAGCEPOM2DP                   0                0.000
