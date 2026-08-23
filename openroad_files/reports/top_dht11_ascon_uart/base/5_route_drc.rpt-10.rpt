@@ -1,0 +1,63 @@
+violation type: Metal Spacing
+	srcs: net:ENC.P.s_in\[302\]
+	bbox = (147.2850, 281.1400) - (147.5750, 281.2350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net240
+	bbox = (166.2200, 286.9500) - (166.3700, 287.0600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_01131_ net:net240
+	bbox = (166.6050, 287.2450) - (166.8950, 287.3400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net252
+	bbox = (168.4300, 283.5200) - (168.7500, 283.6000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:DEC.nonce\[44\] net:net240
+	bbox = (169.1200, 283.6600) - (169.2100, 283.8000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:DEC.nonce\[44\] net:net240
+	bbox = (169.1200, 283.6600) - (169.2100, 283.8450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:DEC.nonce\[44\] net:net240
+	bbox = (169.2000, 283.6600) - (169.2100, 283.8000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:DEC.nonce\[44\] net:net240
+	bbox = (169.2000, 283.6600) - (169.2100, 283.8450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net240 net:net280
+	bbox = (169.3500, 284.0050) - (169.3900, 284.1400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net240 net:net280
+	bbox = (169.3500, 284.0050) - (169.4400, 284.1400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net280
+	bbox = (169.4400, 284.2350) - (169.6800, 284.3400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net260
+	bbox = (285.5900, 115.1600) - (285.8050, 115.2100) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net252
+	bbox = (168.4600, 283.5500) - (168.7200, 283.5700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:net252
+	bbox = (168.4600, 283.5500) - (168.7200, 283.6600) on Layer met2
+violation type: Metal Spacing
+	srcs: net:net252
+	bbox = (168.5200, 283.8900) - (168.6600, 284.0000) on Layer met2
+violation type: Metal Spacing
+	srcs: net:net252
+	bbox = (168.5200, 283.8900) - (168.7200, 284.0000) on Layer met2
+violation type: Metal Spacing
+	srcs: net:clknet_0_clk
+	bbox = (146.0100, 277.6200) - (146.3450, 277.9400) on Layer met3
+violation type: Short
+	srcs: net:ENC.P.s_in\[37\] net:net240
+	bbox = (171.2050, 270.7700) - (171.4950, 270.8800) on Layer met1
+violation type: Short
+	srcs: net:ENC.P.s_in\[37\] net:net240
+	bbox = (171.2050, 270.7700) - (171.4950, 270.9100) on Layer met1
+violation type: Short
+	srcs: net:ENC.P.s_in\[37\] net:net240
+	bbox = (171.3200, 270.7700) - (171.4600, 270.8800) on Layer met1
+violation type: Short
+	srcs: net:ENC.P.s_in\[37\] net:net240
+	bbox = (171.3200, 270.7700) - (171.4600, 270.9100) on Layer met1

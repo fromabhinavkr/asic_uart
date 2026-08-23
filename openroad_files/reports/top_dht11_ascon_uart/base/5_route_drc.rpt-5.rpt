@@ -1,0 +1,6 @@
+violation type: Short
+	srcs: net:net260 net:VDD
+	bbox = (280.3000, 192.8800) - (280.4400, 193.3600) on Layer met1
+violation type: Short
+	srcs: net:net260 net:VDD
+	bbox = (280.4300, 192.8800) - (280.4400, 193.3600) on Layer met1
