@@ -1,0 +1,1 @@
+ASIC physical design using OpenRoad SkyWater SKY130 130nm process node. SkyWater Open Source PDK (Process Design Kit), specifically the sky130hd (High-Density) standard cell library.
